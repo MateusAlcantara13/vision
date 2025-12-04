@@ -50,3 +50,12 @@
                 hero.style.transform = `translateY(${scrolled * 0.5}px)`;
             }
         });
+
+        const processSteps = document.querySelectorAll('.process-step');
+processSteps.forEach((step, index) => {
+    step.style.opacity = '0';
+    step.style.transform = 'translateY(50px)';
+    step.style.transition = 'all 0.8s ease';
+    step.style.transitionDelay = ${index * 0.2}s;
+    observer.observe(step);
+});
