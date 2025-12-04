@@ -15,7 +15,7 @@
         // Demo button
         document.getElementById('startDemo').addEventListener('click', function(e) {
             e.preventDefault();
-            window.open('https://leitorcedulas.netlify.app/', '_blank');
+            window.open('https://leitorcedulas2.netlify.app/', '_blank');
         });
         
         // Nav CTA button - Removido pois não existe mais botão no navbar
